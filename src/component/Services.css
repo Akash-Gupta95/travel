@@ -1,0 +1,22 @@
+.services{
+    background-color: white;
+    margin-top: 50px;
+
+}
+.services .card{
+    box-shadow: 0px 5px 5px -6px black;
+    border: none;
+    cursor: pointer;
+   
+
+}
+.services .card i{
+    font-size: 80px;
+    text-align: center;
+    color: #ffa500;
+    margin-top: 20px;
+}
+.services .card .card-body{
+    text-align: center;
+    
+}
