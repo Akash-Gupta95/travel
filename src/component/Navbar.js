@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-md bg-body-tertiary " id='navbar'>
   <div className="container">
     <a className="navbar-brand" href="#" id='logo'>
-      <span className='Travel'>Rail</span>ravel
+      <span className='Travel'>T</span>ravel
     </a>
     <button
       className="navbar-toggler"
