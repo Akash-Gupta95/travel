@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.Modules.css'
+import { Link } from 'react-router-dom';
 
 
 
@@ -7,9 +8,9 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-md bg-body-tertiary " id='navbar'>
   <div className="container">
-    <a className="navbar-brand" href="#" id='logo'>
-      <span className='Travel'>Akash</span>ravel
-    </a>
+    <Link className="navbar-brand" to="/" id='logo'>
+      <span className='Travel'>T</span>ravel
+    </Link>
     <button
       className="navbar-toggler"
       type="button"
@@ -24,11 +25,11 @@ const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#home">
+          <Link className="nav-link active" aria-current="page" to="Home">
             Home
-          </a>
+          </Link>
         </li>
-        <li className="nav-item">
+         <li className="nav-item">
           <a className="nav-link" href="#book">Book</a>
         </li>
         <li className="nav-item">
@@ -42,6 +43,12 @@ const Navbar = () => {
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#about">About</a>
+        </li>
+
+
+        {/* slide */}
+        <li className="nav-item">
+          <Link className="nav-link" to="/TextUtil">Text</Link>
         </li>
        
         
